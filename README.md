@@ -1,4 +1,4 @@
-# SSKGQA
+# SSKGQA: Semantic Structure based Query Graph Prediction for Question Answering over Knowledge Graph
 
 ### 1) Brief Introduction
 
