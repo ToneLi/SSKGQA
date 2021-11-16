@@ -37,5 +37,7 @@ If the query graph can be predicted correctly, the right answer can be retreved 
 
 For excample:
 
+```markdown
 cd metaQA_step1/hop1
 CUDA_VISIBLE_DEVICES=1 python train.py
+```
