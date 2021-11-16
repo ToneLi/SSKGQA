@@ -2,18 +2,19 @@
 
 ### 1) Short Introduction
 
-This is the source code about our project, the full project, please refer: [Google Drive](https://drive.google.com/drive/folders/18ZREtZq7d1XW_7IfNcsAq5NEoMLDIcK-?usp=sharing)
+This is the source code of SSKGQA. For the full project including MetaQA and WSP datasets, please refer to [Google Drive](https://drive.google.com/drive/folders/18ZREtZq7d1XW_7IfNcsAq5NEoMLDIcK-?usp=sharing)
 . 
 
-There are two steps in our project,
+SSKGQA contains two steps:
 
-**Step 1**： By using the structureBERT to predict the SS.
+**Step 1**： Use structure-BERT to predict the semantic strcture of a question.
 
-**Step 2**： By using the triple BERT to rank the candidate query graph. So, for for each dataset, we have two steps. For excample: MetaQA_step1 and MetaQA_step2.
+**Step 2**： Use a BERT-based ranker to rank the candidate query graph.
 
-So, if we can predict the query graph correctly, the answer will also be correctly answerd.
+If the query graph can be predicted correctly, the right answer can be retreved from KG.
 
 ### 2) Configuration
+
 **Step1**:
 
 1)Python>=3.6.5
