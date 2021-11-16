@@ -1,9 +1,9 @@
 # SSKGQA: Semantic Structure based Query Graph Prediction for Question Answering over Knowledge Graph
 
-### 1) Brief Introduction
+### 1) Introduction
 
-This is the source code of SSKGQA. For the full project including MetaQA and WSP datasets, please refer to [Google Drive](https://drive.google.com/drive/folders/18ZREtZq7d1XW_7IfNcsAq5NEoMLDIcK-?usp=sharing)
-. 
+This is the source code of SSKGQA. For the full project, including MetaQA and WSP datasets, please refer to [Google Drive](https://drive.google.com/drive/folders/18ZREtZq7d1XW_7IfNcsAq5NEoMLDIcK-?usp=sharing)
+
 
 SSKGQA contains two steps:
 
@@ -11,7 +11,7 @@ SSKGQA contains two steps:
 
 **Step 2**： Use a BERT-based ranker to rank the candidate query graph.
 
-If the query graph can be predicted correctly, the right answer can be retreved from KG.
+If the query graph is predicted correctly, the right answer can be retreved from KG.
 
 ### 2) Configuration
 
