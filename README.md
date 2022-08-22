@@ -41,3 +41,5 @@ For excample:
 cd metaQA_step1/hop1
 CUDA_VISIBLE_DEVICES=1 python train.py
 ```
+### 4) Citation
+Please cite this paper if you find the paper or code is useful.
