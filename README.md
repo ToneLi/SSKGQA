@@ -43,3 +43,11 @@ CUDA_VISIBLE_DEVICES=1 python train.py
 ```
 ### 4) Citation
 Please cite this paper if you find the paper or code is useful.
+```
+@article{li2022semantic,
+  title={Semantic Structure based Query Graph Prediction for Question Answering over Knowledge Graph},
+  author={Li, Mingchen and Ji, Jonathan Shihao},
+  journal={arXiv preprint arXiv:2204.10194},
+  year={2022}
+}
+```
