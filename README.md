@@ -47,8 +47,8 @@ Please cite this paper if you find the paper or code is useful.
 ```
 @article{li2022semantic,
   title={Semantic Structure based Query Graph Prediction for Question Answering over Knowledge Graph},
-  author={Li, Mingchen and Ji, Jonathan Shihao},
-  journal={arXiv preprint arXiv:2204.10194},
+  author={Li, Mingchen and Ji, Shihao},
+  journal={International Conference on Computational Linguistics (COLING)},
   year={2022}
 }
 ```
