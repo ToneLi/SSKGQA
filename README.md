@@ -2,7 +2,7 @@
 
 ### 1) Introduction
 
-This is the source code of [SSKGQA](https://arxiv.org/pdf/2204.10194.pdf). For the full project, including MetaQA and WSP datasets, please refer to [Google Drive](https://drive.google.com/drive/folders/18ZREtZq7d1XW_7IfNcsAq5NEoMLDIcK-?usp=sharing)
+This is the source code of [SSKGQA](https://arxiv.org/abs/2204.10194). For the full project, including MetaQA and WSP datasets, please refer to [Google Drive](https://drive.google.com/drive/folders/18ZREtZq7d1XW_7IfNcsAq5NEoMLDIcK-?usp=sharing)
 
 <img src="https://github.com/ToneLi/SSKGQA/blob/main/framework.png" width="500"/>
 
