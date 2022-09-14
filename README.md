@@ -63,6 +63,8 @@ louisiana#location.administrative_division.first_level_division_of#?x#1
 louisiana#location.location.partiallycontains#?x#1
 louisiana#book.book_subject.works#?x#1
 ```
+Prediction results:
+<img src="https://github.com/ToneLi/SSKGQA/blob/main/demo.png" width="500"/>
 
 
 ### 5) Citation
