@@ -2,7 +2,7 @@
 
 ### 1) Introduction
 
-This is the source code of SSKGQA. For the full project, including MetaQA and WSP datasets, please refer to [Google Drive](https://drive.google.com/drive/folders/18ZREtZq7d1XW_7IfNcsAq5NEoMLDIcK-?usp=sharing)
+This is the source code of [SSKGQA](https://arxiv.org/pdf/2204.10194.pdf). For the full project, including MetaQA and WSP datasets, please refer to [Google Drive](https://drive.google.com/drive/folders/18ZREtZq7d1XW_7IfNcsAq5NEoMLDIcK-?usp=sharing)
 
 <img src="https://github.com/ToneLi/SSKGQA/blob/main/framework.png" width="500"/>
 
@@ -12,6 +12,7 @@ The overview of our proposed SSKGQA is depicted in this chart. Given a question 
 
 **Step 2**: we retrieve all the candidate query graphs (CQG) of __q__ by enumeration, and use the predicted semantic structure __SS2__ as the constraint to filter out noisy candidate query graphs and keep the candidate query graphs with correct structure (CQG-CS). Afterwards, a BERT-based ranking model is used to score each candidate query graph in CQG-CS, and the top-1 highest scored candidate is selected as the query graph __g__ for question __q__. Finally, the selected query graph is issued to KG to retrieve the answer __Sergei Kozlov__.
 
+Note: for the detail please check our paper.
 
 
 ### 2) Configuration
