@@ -48,7 +48,7 @@ CUDA_VISIBLE_DEVICES=1 python train.py,  please use the default parameters.
 
 **Question**:   what is my timezone in louisiana ?
 
-**groud truth query graph is**:  louisiana (topic entity)#location.location.time_zones (relation)#?x (the answer which to be got)#1  (SS1 for our proposed Semantic structure)
+**ground truth query graph is**:  louisiana (topic entity)#location.location.time_zones (relation)#?x (the answer which to be got)#1  (SS1 for our proposed Semantic structure)
 
 **candidate query graph**:
 ```
