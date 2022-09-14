@@ -40,9 +40,8 @@ Note: for the detail please check our paper.
 For excample:
 
 ```markdown
-the main file in step 1 and step2 all are train.py
-cd metaQA_step1/hop1
-CUDA_VISIBLE_DEVICES=1 python train.py
+the training file in step 1 and step2 all are train.py, just run it by
+CUDA_VISIBLE_DEVICES=1 python train.py,  please use the default parameters.
 ```
 ### 4) Citation
 Please cite this paper if you find the paper or code is useful.
