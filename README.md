@@ -55,7 +55,9 @@ CUDA_VISIBLE_DEVICES=1 python train.py,  please use the default parameters.
 louisiana#base.biblioness.bibs_location.country#?x#1
 louisiana#location.location.events#?x#1
 louisiana#location.location.partially_contains#?x#1
-**louisiana#location.location.time_zones#?x#1**
+
+-----louisiana#location.location.time_zones#?x#1-------
+
 louisiana#government.political_district.representatives#?x#1
 louisiana#location.administrative_division.country#?x#1
 louisiana#base.aareas.schema.administrative_area.administrative_parent#?x#1
