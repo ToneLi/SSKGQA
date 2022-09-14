@@ -43,7 +43,29 @@ For excample:
 the training file in step 1 and step2 all are train.py, just run it by
 CUDA_VISIBLE_DEVICES=1 python train.py,  please use the default parameters.
 ```
-### 4) Citation
+
+### 4) Demo display
+
+Question:   what is my timezone in louisiana ?
+
+groud truth query graph is:  louisiana (topic entity)#location.location.time_zones (relation)#?x (the answer which to be got)#1  (SS1 for our proposed Semantic structure)
+
+candidate query graph:
+```
+louisiana#base.biblioness.bibs_location.country#?x#1
+louisiana#location.location.events#?x#1
+louisiana#location.location.partially_contains#?x#1
+louisiana#location.location.time_zones#?x#1
+louisiana#government.political_district.representatives#?x#1
+louisiana#location.administrative_division.country#?x#1
+louisiana#base.aareas.schema.administrative_area.administrative_parent#?x#1
+louisiana#location.administrative_division.first_level_division_of#?x#1
+louisiana#location.location.partiallycontains#?x#1
+louisiana#book.book_subject.works#?x#1
+```
+
+
+### 5) Citation
 Please cite this paper if you find the paper or code is useful.
 ```
 @article{li2022semantic,
