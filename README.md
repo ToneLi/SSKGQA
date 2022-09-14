@@ -67,7 +67,7 @@ louisiana#book.book_subject.works#?x#1
 ```
 **Prediction results**:
 
-<img src="https://github.com/ToneLi/SSKGQA/blob/main/demo.png" width="500"/>
+<img src="https://github.com/ToneLi/SSKGQA/blob/main/demo.png" width="800"/>
 
 
 ### 5) Citation
