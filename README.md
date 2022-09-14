@@ -46,16 +46,16 @@ CUDA_VISIBLE_DEVICES=1 python train.py,  please use the default parameters.
 
 ### 4) Demo display
 
-Question:   what is my timezone in louisiana ?
+**Question**:   what is my timezone in louisiana ?
 
-groud truth query graph is:  louisiana (topic entity)#location.location.time_zones (relation)#?x (the answer which to be got)#1  (SS1 for our proposed Semantic structure)
+**groud truth query graph is**:  louisiana (topic entity)#location.location.time_zones (relation)#?x (the answer which to be got)#1  (SS1 for our proposed Semantic structure)
 
-candidate query graph:
+**candidate query graph**:
 ```
 louisiana#base.biblioness.bibs_location.country#?x#1
 louisiana#location.location.events#?x#1
 louisiana#location.location.partially_contains#?x#1
-louisiana#location.location.time_zones#?x#1
+**louisiana#location.location.time_zones#?x#1**
 louisiana#government.political_district.representatives#?x#1
 louisiana#location.administrative_division.country#?x#1
 louisiana#base.aareas.schema.administrative_area.administrative_parent#?x#1
@@ -63,7 +63,8 @@ louisiana#location.administrative_division.first_level_division_of#?x#1
 louisiana#location.location.partiallycontains#?x#1
 louisiana#book.book_subject.works#?x#1
 ```
-Prediction results:
+**Prediction results**:
+
 <img src="https://github.com/ToneLi/SSKGQA/blob/main/demo.png" width="500"/>
 
 
