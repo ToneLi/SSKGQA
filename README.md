@@ -5,6 +5,8 @@
 This is the source code of SSKGQA. For the full project, including MetaQA and WSP datasets, please refer to [Google Drive](https://drive.google.com/drive/folders/18ZREtZq7d1XW_7IfNcsAq5NEoMLDIcK-?usp=sharing)
 
 
+![image](https://github.com/ToneLi/SSKGQA/blob/main/framework.pdf)
+
 SSKGQA contains two steps:
 
 **Step 1**： Use structure-BERT to predict the semantic strcture of a question.
